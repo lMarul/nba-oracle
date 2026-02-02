@@ -1,0 +1,2 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+16:25:55	517215/517215	---MCZ	200	added ('OK')	text/html	date:Mon,%2002%20Feb%202026%2008:25:56%20GMT	https://www.nba.com/	C:/Users/Maru/Desktop/ACADS/2nd%20Year%202nd%20Term/CLDCOMP/Finals/nba-oracle/www.nba.com/index.html	(from )
