@@ -1,0 +1,11 @@
+name: Deploy
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: azure/CLI@v1
+      with:
+        inlineScript: |
+          az storage blob upload-batch --destination '$web' --source . --connection-string "${{ secrets.AZURE_CONNECTION_STRING }}" --pattern "[!.]*"
