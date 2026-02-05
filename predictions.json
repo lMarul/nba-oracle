@@ -1,4 +1,4 @@
 [
-  { "team": "Celtics", "prob": "98%" },
-  { "team": "Lakers", "prob": "45%" }
+  { "team": "Celtics", "prob": "Calculating...", "status": "Pending" },
+  { "team": "Lakers", "prob": "Calculating...", "status": "Pending" }
 ]
